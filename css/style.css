@@ -1,0 +1,50 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: skyblue;
+    color: saddlebrown;
+}
+
+header {
+    text-align: center;
+    background-color: plum;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+
+/* Mobile styling */
+@media (max-width: 600px) {
+    body {
+    background-color: #112f4a;
+    font-size: 18px;
+    padding: 10px;
+    }
+
+    h1 {
+    font-size: 1.5em;
+    }
+
+    h2 {
+    font-size: 1.2em;
+    }
+}
